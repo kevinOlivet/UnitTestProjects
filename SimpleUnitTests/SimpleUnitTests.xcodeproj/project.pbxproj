@@ -85,11 +85,11 @@
 		2D9B2F1D1FB8ACBB00054A88 /* SimpleUnitTests */ = {
 			isa = PBXGroup;
 			children = (
-				2D9B2F401FB8B5F200054A88 /* Model */,
 				2D9B2F1E1FB8ACBB00054A88 /* AppDelegate.swift */,
+				2D9B2F401FB8B5F200054A88 /* Model */,
 				2D9B2F201FB8ACBB00054A88 /* ViewController.swift */,
-				2D9B2F221FB8ACBB00054A88 /* Main.storyboard */,
 				2D9B2F251FB8ACBB00054A88 /* Assets.xcassets */,
+				2D9B2F221FB8ACBB00054A88 /* Main.storyboard */,
 				2D9B2F271FB8ACBB00054A88 /* LaunchScreen.storyboard */,
 				2D9B2F2A1FB8ACBB00054A88 /* Info.plist */,
 			);
@@ -99,10 +99,10 @@
 		2D9B2F321FB8ACBB00054A88 /* SimpleUnitTestsTests */ = {
 			isa = PBXGroup;
 			children = (
-				2D9B2F351FB8ACBB00054A88 /* Info.plist */,
-				2D9B2F3E1FB8AD8900054A88 /* ViewControllerTests.swift */,
-				2D9B2F431FB8B62D00054A88 /* PersonTests.swift */,
 				2D055F201FB9111D00A05DDB /* CarTests.swift */,
+				2D9B2F431FB8B62D00054A88 /* PersonTests.swift */,
+				2D9B2F3E1FB8AD8900054A88 /* ViewControllerTests.swift */,
+				2D9B2F351FB8ACBB00054A88 /* Info.plist */,
 			);
 			path = SimpleUnitTestsTests;
 			sourceTree = "<group>";
@@ -110,8 +110,8 @@
 		2D9B2F401FB8B5F200054A88 /* Model */ = {
 			isa = PBXGroup;
 			children = (
-				2D9B2F411FB8B5FF00054A88 /* Person.swift */,
 				2D055F1E1FB910CE00A05DDB /* Car.swift */,
+				2D9B2F411FB8B5FF00054A88 /* Person.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";

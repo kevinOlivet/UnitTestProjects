@@ -11,14 +11,11 @@ import XCTest
 
 class ViewControllerTests: XCTestCase {
   
-  var viewController: ViewController!
+  var viewController = ViewController()
   let storyboard = UIStoryboard(name: "Main", bundle: nil)
 
     override func setUp() {
         super.setUp()
-      
-      viewController = storyboard.instantiateInitialViewController() as? ViewController
-      viewController.loadViewIfNeeded()
     }
     
     override func tearDown() {
@@ -49,6 +46,9 @@ class ViewControllerTests: XCTestCase {
     }
   
   func testLoadViewDoesSetOutlets() {
+    viewController = storyboard.instantiateInitialViewController() as! ViewController
+    viewController.loadViewIfNeeded()
+    
     XCTAssertNotNil(viewController.speedLabel)
   }
   
