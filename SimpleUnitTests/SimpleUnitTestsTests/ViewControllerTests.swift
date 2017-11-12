@@ -10,11 +10,15 @@ import XCTest
 @testable import SimpleUnitTests
 
 class ViewControllerTests: XCTestCase {
-    let viewController = ViewController()
+  
+  var viewController: ViewController!
+  let storyboard = UIStoryboard(name: "Main", bundle: nil)
 
     override func setUp() {
         super.setUp()
-        // Put setup code here. This method is called before the invocation of each test method in the class.
+      
+      viewController = storyboard.instantiateInitialViewController() as? ViewController
+      viewController.loadViewIfNeeded()
     }
     
     override func tearDown() {
@@ -43,5 +47,14 @@ class ViewControllerTests: XCTestCase {
         let coinsRewarded = 1
         XCTAssertEqual(viewController.getGameCoinAmout(gamePrice: gamePrice), coinsRewarded)
     }
+  
+  func testLoadViewDoesSetOutlets() {
+    XCTAssertNotNil(viewController.speedLabel)
+  }
+  
+  func testCalculateFerrariMiles() {
+    viewController.setUpFerrari()
+    XCTAssertEqual(viewController.ferrari.miles, 140)
+  }
     
 }

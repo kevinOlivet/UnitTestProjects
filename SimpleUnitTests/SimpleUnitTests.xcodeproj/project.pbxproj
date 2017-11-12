@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2D055F1F1FB910CE00A05DDB /* Car.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D055F1E1FB910CE00A05DDB /* Car.swift */; };
+		2D055F211FB9111D00A05DDB /* CarTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D055F201FB9111D00A05DDB /* CarTests.swift */; };
 		2D9B2F1F1FB8ACBB00054A88 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D9B2F1E1FB8ACBB00054A88 /* AppDelegate.swift */; };
 		2D9B2F211FB8ACBB00054A88 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D9B2F201FB8ACBB00054A88 /* ViewController.swift */; };
 		2D9B2F241FB8ACBB00054A88 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2D9B2F221FB8ACBB00054A88 /* Main.storyboard */; };
@@ -28,6 +30,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		2D055F1E1FB910CE00A05DDB /* Car.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Car.swift; sourceTree = "<group>"; };
+		2D055F201FB9111D00A05DDB /* CarTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CarTests.swift; sourceTree = "<group>"; };
 		2D9B2F1B1FB8ACBB00054A88 /* SimpleUnitTests.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SimpleUnitTests.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2D9B2F1E1FB8ACBB00054A88 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		2D9B2F201FB8ACBB00054A88 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -98,6 +102,7 @@
 				2D9B2F351FB8ACBB00054A88 /* Info.plist */,
 				2D9B2F3E1FB8AD8900054A88 /* ViewControllerTests.swift */,
 				2D9B2F431FB8B62D00054A88 /* PersonTests.swift */,
+				2D055F201FB9111D00A05DDB /* CarTests.swift */,
 			);
 			path = SimpleUnitTestsTests;
 			sourceTree = "<group>";
@@ -106,6 +111,7 @@
 			isa = PBXGroup;
 			children = (
 				2D9B2F411FB8B5FF00054A88 /* Person.swift */,
+				2D055F1E1FB910CE00A05DDB /* Car.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -216,6 +222,7 @@
 			files = (
 				2D9B2F421FB8B5FF00054A88 /* Person.swift in Sources */,
 				2D9B2F211FB8ACBB00054A88 /* ViewController.swift in Sources */,
+				2D055F1F1FB910CE00A05DDB /* Car.swift in Sources */,
 				2D9B2F1F1FB8ACBB00054A88 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -224,6 +231,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2D055F211FB9111D00A05DDB /* CarTests.swift in Sources */,
 				2D9B2F441FB8B62D00054A88 /* PersonTests.swift in Sources */,
 				2D9B2F3F1FB8AD8900054A88 /* ViewControllerTests.swift in Sources */,
 			);
