@@ -25,11 +25,10 @@ class CarTests: XCTestCase {
   }
   
   override func tearDown() {
-    super.tearDown()
-    
     ferrari = nil
     jeep = nil
     honda = nil
+    super.tearDown()
   }
   
   func testSportFasterThanJeep() {

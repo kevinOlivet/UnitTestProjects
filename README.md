@@ -30,3 +30,9 @@ One tests if a number returns the correct result using XCTAssert.
 Another tests the text of three labels using an accompanying message.
 
 A simple project with a quick and dirty architecture.
+
+#UnitTestsPokemon
+
+This project uses MVVM architecture to test Pokemon.
+There is a model class Pokemon.
+The logic and functions are implemented in PokemonViewModel.

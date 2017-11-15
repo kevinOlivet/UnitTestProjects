@@ -12,16 +12,17 @@ import XCTest
 class ViewControllerTests: XCTestCase {
     
     var viewController: ViewController!
-    
+    let storyboard = UIStoryboard(name: "Main", bundle: Bundle.main)
+
     override func setUp() {
         super.setUp()
-        
-        let storyboard = UIStoryboard(name: "Main", bundle: Bundle.main)
+
         viewController = storyboard.instantiateInitialViewController() as! ViewController
   }
     
     override func tearDown() {
-        // Put teardown code here. This method is called after the invocation of each test method in the class.
+        viewController = nil
+        
         super.tearDown()
     }
     
