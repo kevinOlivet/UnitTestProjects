@@ -22,12 +22,16 @@ class PersonTests: XCTestCase {
     }
     
     func testInit_ShouldTakeName() {
+        //when
         let person = Person(name: "John Smith")
+        //verify
         XCTAssertEqual(person.name, "John Smith")
     }
     
     func testInit_ShouldTakeHairColor() {
+        //when
         let person = Person(name: "Kevin Olivet", hairColor: "brown")
+        //verify
         XCTAssertEqual(person.name, "Kevin Olivet")
         XCTAssertEqual(person.hairColor, "brown")
     }

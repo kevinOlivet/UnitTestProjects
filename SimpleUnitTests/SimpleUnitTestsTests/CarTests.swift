@@ -17,7 +17,7 @@ class CarTests: XCTestCase {
   
   override func setUp() {
     super.setUp()
-    
+    //given
     ferrari = Car(type: .sport, transmissionMode: .drive)
     jeep = Car(type: .offRoad, transmissionMode: .drive)
     honda = Car(type: .economy, transmissionMode: .park)
@@ -32,15 +32,14 @@ class CarTests: XCTestCase {
   }
   
   func testSportFasterThanJeep() {
+    //given
     let minutes = 60
     
-    // start ferrari
+    //when
     ferrari.start(minutes: minutes)
-    
-    // start jeep
     jeep.start(minutes: minutes)
     
-    // Test it
+    //verify
     XCTAssertTrue(ferrari.miles > jeep.miles)
   }
   
