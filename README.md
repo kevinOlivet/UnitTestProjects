@@ -36,3 +36,9 @@ A simple project with a quick and dirty architecture.
 This project uses MVVM architecture to test Pokemon.
 There is a model class Pokemon.
 The logic and functions are implemented in PokemonViewModel.
+
+#UnitTestsCoreData
+
+This is a small project using unit tests with CoreData.
+
+It's purpose is to show how to create a mock to a test CoreData fetchRequest.
